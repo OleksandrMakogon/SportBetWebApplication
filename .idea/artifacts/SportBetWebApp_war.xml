@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SportBetWebApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SportBetWebApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SportBetWebApp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SportBetWebApp:war exploded" />
+    </root>
+  </artifact>
+</component>
