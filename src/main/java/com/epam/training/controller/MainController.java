@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class MainController {
 
     @Autowired
-    @Qualifier("JpaPlayerService")
+    @Qualifier("RepositoryPlayerService")
     private PlayerService service;
 
     @Autowired

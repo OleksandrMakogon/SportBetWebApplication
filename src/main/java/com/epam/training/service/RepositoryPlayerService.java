@@ -1,33 +1,40 @@
 package com.epam.training.service;
 
 import com.epam.training.model.Player;
+import com.epam.training.model.Wager;
 import com.epam.training.repository.PlayerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-//@Service
+//using Repository
+@Service("RepositoryPlayerService")
 @Transactional(readOnly = true)
-public class PlayerServiceImpl {
+public class RepositoryPlayerService implements PlayerService{
 
     @Autowired
     private PlayerRepository playerRepository;
 
-    //@Override
+    @Override
     public List<Player> getAll() {
         return playerRepository.findAll();
     }
 
-    //@Override
+    @Override
+    public List<Wager> getAllWagers() {
+        return null;
+    }
+
+    @Override
     public void addPlayer(Player player) {
         playerRepository.save(player);
     }
 
-    //@Override
     @Transactional
     public Player getPlayer(String player_login, String password) {
-        return new Player();
+        return playerRepository.findByPlayer_loginAndPassword(player_login, password);
     }
 
 }
