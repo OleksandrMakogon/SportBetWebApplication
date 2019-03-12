@@ -1,98 +1,88 @@
 C:\apache-tomcat-9.0.16\bin\catalina.bat run
-[2019-03-12 10:53:14,337] Artifact SportBetWebApp:war exploded: Waiting for server connection to start artifact deployment...
+[2019-03-12 11:22:30,920] Artifact SportBetWebApp:war exploded: Waiting for server connection to start artifact deployment...
 Using CATALINA_BASE:   "C:\Users\Oleksandr_Makogon\.IntelliJIdea2018.3\system\tomcat\Unnamed_SportBetWebApp"
 Using CATALINA_HOME:   "C:\apache-tomcat-9.0.16"
 Using CATALINA_TMPDIR: "C:\apache-tomcat-9.0.16\temp"
 Using JRE_HOME:        "C:\Program Files\Java\jdk1.8.0_181"
 Using CLASSPATH:       "C:\apache-tomcat-9.0.16\bin\bootstrap.jar;C:\apache-tomcat-9.0.16\bin\tomcat-juli.jar"
-12-Mar-2019 10:53:15.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
-12-Mar-2019 10:53:15.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
-12-Mar-2019 10:53:15.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
-12-Mar-2019 10:53:15.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
-12-Mar-2019 10:53:15.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
-12-Mar-2019 10:53:15.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
-12-Mar-2019 10:53:15.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_181\jre
-12-Mar-2019 10:53:15.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
-12-Mar-2019 10:53:15.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
-12-Mar-2019 10:53:15.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Oleksandr_Makogon\.IntelliJIdea2018.3\system\tomcat\Unnamed_SportBetWebApp
-12-Mar-2019 10:53:15.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-9.0.16
-12-Mar-2019 10:53:15.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Oleksandr_Makogon\.IntelliJIdea2018.3\system\tomcat\Unnamed_SportBetWebApp\conf\logging.properties
-12-Mar-2019 10:53:15.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-12-Mar-2019 10:53:15.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
-12-Mar-2019 10:53:15.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
-12-Mar-2019 10:53:15.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
-12-Mar-2019 10:53:15.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.password.file=C:\Users\Oleksandr_Makogon\.IntelliJIdea2018.3\system\tomcat\Unnamed_SportBetWebApp\jmxremote.password
-12-Mar-2019 10:53:15.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.access.file=C:\Users\Oleksandr_Makogon\.IntelliJIdea2018.3\system\tomcat\Unnamed_SportBetWebApp\jmxremote.access
-12-Mar-2019 10:53:15.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
-12-Mar-2019 10:53:15.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-12-Mar-2019 10:53:15.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
-12-Mar-2019 10:53:15.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
-12-Mar-2019 10:53:15.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Oleksandr_Makogon\.IntelliJIdea2018.3\system\tomcat\Unnamed_SportBetWebApp
-12-Mar-2019 10:53:15.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-9.0.16
-12-Mar-2019 10:53:15.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-9.0.16\temp
-12-Mar-2019 10:53:15.806 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
-12-Mar-2019 10:53:15.806 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-12-Mar-2019 10:53:15.806 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-12-Mar-2019 10:53:15.814 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
-12-Mar-2019 10:53:16.079 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
-12-Mar-2019 10:53:16.130 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
-12-Mar-2019 10:53:16.135 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [953] milliseconds
-12-Mar-2019 10:53:16.196 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
-12-Mar-2019 10:53:16.196 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
-12-Mar-2019 10:53:16.213 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
-12-Mar-2019 10:53:16.232 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
-12-Mar-2019 10:53:16.238 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [101] milliseconds
+12-Mar-2019 11:22:32.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.16
+12-Mar-2019 11:22:32.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 4 2019 16:30:29 UTC
+12-Mar-2019 11:22:32.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.16.0
+12-Mar-2019 11:22:32.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+12-Mar-2019 11:22:32.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Mar-2019 11:22:32.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Mar-2019 11:22:32.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_181\jre
+12-Mar-2019 11:22:32.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+12-Mar-2019 11:22:32.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Mar-2019 11:22:32.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Oleksandr_Makogon\.IntelliJIdea2018.3\system\tomcat\Unnamed_SportBetWebApp
+12-Mar-2019 11:22:32.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\apache-tomcat-9.0.16
+12-Mar-2019 11:22:32.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Oleksandr_Makogon\.IntelliJIdea2018.3\system\tomcat\Unnamed_SportBetWebApp\conf\logging.properties
+12-Mar-2019 11:22:32.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Mar-2019 11:22:32.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+12-Mar-2019 11:22:32.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+12-Mar-2019 11:22:32.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+12-Mar-2019 11:22:32.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.password.file=C:\Users\Oleksandr_Makogon\.IntelliJIdea2018.3\system\tomcat\Unnamed_SportBetWebApp\jmxremote.password
+12-Mar-2019 11:22:32.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.access.file=C:\Users\Oleksandr_Makogon\.IntelliJIdea2018.3\system\tomcat\Unnamed_SportBetWebApp\jmxremote.access
+12-Mar-2019 11:22:32.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+12-Mar-2019 11:22:32.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Mar-2019 11:22:32.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Mar-2019 11:22:32.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Mar-2019 11:22:32.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Oleksandr_Makogon\.IntelliJIdea2018.3\system\tomcat\Unnamed_SportBetWebApp
+12-Mar-2019 11:22:32.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\apache-tomcat-9.0.16
+12-Mar-2019 11:22:32.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\apache-tomcat-9.0.16\temp
+12-Mar-2019 11:22:32.339 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+12-Mar-2019 11:22:32.341 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12-Mar-2019 11:22:32.341 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12-Mar-2019 11:22:32.345 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+12-Mar-2019 11:22:32.535 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+12-Mar-2019 11:22:32.592 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2019 11:22:32.608 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [721] milliseconds
+12-Mar-2019 11:22:32.654 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Mar-2019 11:22:32.655 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.16]
+12-Mar-2019 11:22:32.670 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+12-Mar-2019 11:22:32.686 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2019 11:22:32.694 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [85] milliseconds
 Connected to server
-[2019-03-12 10:53:16,493] Artifact SportBetWebApp:war exploded: Artifact is being deployed, please wait...
-12-Mar-2019 10:53:21.475 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-12-Mar-2019 10:53:21.549 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
-12-Mar-2019 10:53:21.619 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue Mar 12 10:53:21 EET 2019]; root of context hierarchy
-12-Mar-2019 10:53:21.834 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.epam.training.config.PersistenceConfig]
-12-Mar-2019 10:53:22.837 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization Bean 'persistenceConfig' of type [com.epam.training.config.PersistenceConfig$$EnhancerBySpringCGLIB$$86ec518] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12-Mar-2019 10:53:23.213 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: org.postgresql.Driver
-12-Mar-2019 10:53:23.611 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory Building JPA container EntityManagerFactory for persistence unit 'default'
-12-Mar-2019 10:53:23.667 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+[2019-03-12 11:22:33,053] Artifact SportBetWebApp:war exploded: Artifact is being deployed, please wait...
+12-Mar-2019 11:22:38.134 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2019 11:22:38.199 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+12-Mar-2019 11:22:38.280 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue Mar 12 11:22:38 EET 2019]; root of context hierarchy
+12-Mar-2019 11:22:38.540 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.epam.training.config.PersistenceConfig]
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+12-Mar-2019 11:22:40.071 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization Bean 'persistenceConfig' of type [com.epam.training.config.PersistenceConfig$$EnhancerBySpringCGLIB$$14913b27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12-Mar-2019 11:22:40.487 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName Loaded JDBC driver: org.postgresql.Driver
+12-Mar-2019 11:22:40.901 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory Building JPA container EntityManagerFactory for persistence unit 'default'
+12-Mar-2019 11:22:40.955 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-12-Mar-2019 10:53:23.973 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.2.Final}
-12-Mar-2019 10:53:23.977 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
-12-Mar-2019 10:53:24.374 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-12-Mar-2019 10:53:25.331 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
-12-Mar-2019 10:53:25.690 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
-12-Mar-2019 10:53:25.714 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@567800bb
-12-Mar-2019 10:53:26.259 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-9.0.16\webapps\manager]
-12-Mar-2019 10:53:26.384 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.16\webapps\manager] has finished in [125] ms
-12-Mar-2019 10:53:28.935 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory Initialized JPA EntityManagerFactory for persistence unit 'default'
-12-Mar-2019 10:53:29.066 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 7517 ms
-12-Mar-2019 10:53:29.071 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
-12-Mar-2019 10:53:29.079 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Mar 12 10:53:29 EET 2019]; parent: Root WebApplicationContext
-12-Mar-2019 10:53:29.085 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.epam.training.config.WebConfig]
-12-Mar-2019 10:53:29.394 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization Bean 'persistenceConfig' of type [com.epam.training.config.PersistenceConfig$$EnhancerBySpringCGLIB$$86ec518] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12-Mar-2019 10:53:29.523 WARNING [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-12-Mar-2019 10:53:29.524 SEVERE [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
- org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+12-Mar-2019 11:22:41.291 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.2.Final}
+12-Mar-2019 11:22:41.295 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+12-Mar-2019 11:22:41.698 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+12-Mar-2019 11:22:42.674 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\apache-tomcat-9.0.16\webapps\manager]
+12-Mar-2019 11:22:42.709 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+12-Mar-2019 11:22:42.771 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.16\webapps\manager] has finished in [97] ms
+12-Mar-2019 11:22:43.086 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+12-Mar-2019 11:22:43.108 INFO [RMI TCP Connection(3)-127.0.0.1] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@64b4c749
+12-Mar-2019 11:22:46.433 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory Initialized JPA EntityManagerFactory for persistence unit 'default'
+12-Mar-2019 11:22:46.901 WARNING [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'playerRepository': Initialization of bean failed; nested exception is java.lang.AbstractMethodError
+12-Mar-2019 11:22:46.905 SEVERE [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.ContextLoader.initWebApplicationContext Context initialization failed
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'playerRepository': Initialization of bean failed; nested exception is java.lang.AbstractMethodError
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
 	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:742)
 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
-	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
-	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:540)
-	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
-	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
-	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
-	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1123)
-	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:974)
-	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4854)
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5170)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:443)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:325)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4666)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136)
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
 	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:713)
 	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
@@ -138,229 +128,16 @@ Connected to server
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+Caused by: java.lang.AbstractMethodError
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:99)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveInnerBean(BeanDefinitionValueResolver.java:302)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:129)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1531)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1276)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
-	... 66 more
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1493)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
-	... 79 more
+	... 58 more
 
-[2019-03-12 10:53:29,603] Artifact SportBetWebApp:war exploded: Artifact is deployed successfully
-[2019-03-12 10:53:29,603] Artifact SportBetWebApp:war exploded: Deploy took 13,110 milliseconds
-12-Mar-2019 10:53:30.118 INFO [http-nio-8081-exec-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
-12-Mar-2019 10:53:30.120 INFO [http-nio-8081-exec-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Mar 12 10:53:30 EET 2019]; parent: Root WebApplicationContext
-12-Mar-2019 10:53:30.124 INFO [http-nio-8081-exec-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.epam.training.config.WebConfig]
-12-Mar-2019 10:53:30.306 INFO [http-nio-8081-exec-1] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization Bean 'persistenceConfig' of type [com.epam.training.config.PersistenceConfig$$EnhancerBySpringCGLIB$$86ec518] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12-Mar-2019 10:53:30.458 WARNING [http-nio-8081-exec-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-12-Mar-2019 10:53:30.458 SEVERE [http-nio-8081-exec-1] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
- org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
-	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
-	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:540)
-	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
-	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
-	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
-	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1123)
-	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:777)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:134)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
-	... 36 more
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1493)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
-	... 49 more
-
-12-Mar-2019 10:53:30.495 INFO [http-nio-8081-exec-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
-12-Mar-2019 10:53:30.496 INFO [http-nio-8081-exec-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Mar 12 10:53:30 EET 2019]; parent: Root WebApplicationContext
-12-Mar-2019 10:53:30.505 INFO [http-nio-8081-exec-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.epam.training.config.WebConfig]
-12-Mar-2019 10:53:30.622 INFO [http-nio-8081-exec-1] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization Bean 'persistenceConfig' of type [com.epam.training.config.PersistenceConfig$$EnhancerBySpringCGLIB$$86ec518] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12-Mar-2019 10:53:30.699 WARNING [http-nio-8081-exec-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-12-Mar-2019 10:53:30.707 SEVERE [http-nio-8081-exec-1] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
- org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
-	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
-	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:540)
-	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
-	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
-	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
-	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1123)
-	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:777)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:134)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
-	... 36 more
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1493)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
-	... 49 more
-
-12-Mar-2019 10:53:31.043 INFO [http-nio-8081-exec-3] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
-12-Mar-2019 10:53:31.045 INFO [http-nio-8081-exec-3] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Mar 12 10:53:31 EET 2019]; parent: Root WebApplicationContext
-12-Mar-2019 10:53:31.052 INFO [http-nio-8081-exec-3] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.epam.training.config.WebConfig]
-12-Mar-2019 10:53:31.265 INFO [http-nio-8081-exec-3] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization Bean 'persistenceConfig' of type [com.epam.training.config.PersistenceConfig$$EnhancerBySpringCGLIB$$86ec518] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-12-Mar-2019 10:53:31.363 WARNING [http-nio-8081-exec-3] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.refresh Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-12-Mar-2019 10:53:31.364 SEVERE [http-nio-8081-exec-3] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
- org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mainController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
-	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
-	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:540)
-	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
-	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
-	at javax.servlet.GenericServlet.init(GenericServlet.java:158)
-	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1123)
-	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:777)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:134)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RepositoryPlayerService': Unsatisfied dependency expressed through field 'playerRepository'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
-	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
-	... 36 more
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.epam.training.repository.PlayerRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1493)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
-	... 49 more
-
+12-Mar-2019 11:22:46.909 SEVERE [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+12-Mar-2019 11:22:46.910 SEVERE [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+12-Mar-2019 11:22:46.950 WARNING [RMI TCP Connection(3)-127.0.0.1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+[2019-03-12 11:22:46,965] Artifact SportBetWebApp:war exploded: Error during artifact deployment. See server log for details.
